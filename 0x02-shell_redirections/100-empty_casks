@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa . | find -empty | cut -d " " -f9
+find . -empty -print
